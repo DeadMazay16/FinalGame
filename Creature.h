@@ -9,12 +9,12 @@
  * Перечисление типов урона
  */
 enum {
-
     PHYSICAL, //!< Физический урон
 };
 
 #include<iostream>
 #include <map>
+
 class Creature
 {
 
@@ -27,7 +27,7 @@ private:
     /*!
      * @todo Составить список всех навыков и устанавливать их в конструкторе
      */
-     std::map<std::string, float>    skills; // навыки существа
+    std::map<std::string, float>        skills;     // навыки существа
 
     /*!
      * Пересчитать параметры существа

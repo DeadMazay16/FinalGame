@@ -35,6 +35,7 @@ void Creature::recountStats()
     stats["armor"] = params["strength"] * 0.1f;
     rates["phys_resist"] = 1 - (0.03f * stats["armor"]) / (1 + 0.03f * stats["armor"]);
 
-    // Время между атаками todo После добавления оружия
+    // todo После добавления оружия
     // rates["attack_speed"] =
+
 }
